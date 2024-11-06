@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    font-family:  "Open Sans", sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: rgb(252, 241, 227);
+}
+
+body {
+    margin: 8px;
+}
+
+.product {
+    background-color: #ffffff; /* cor de fundo */
+    border: 1px solid #ddd; /* borda opcional */
+    border-radius: 10px; /* cantos arredondados */
+    padding: 5px; /* espaçamento interno */
+    text-align: center; /* centraliza o texto */
+    margin: 20px; /* espaço entre os produtos */
+}
+
+.product img {
+    background-color: #ffffff;
+}
+
+.product p {
+background-color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em; /* Tamanho da fonte */
+    margin: 20px 0; /* Espaçamento em cima e embaixo */ 
+    font-family: "Open Sans", sans-serif; /* Tipo de fonte */
+}
+.imginício {
+    width: 100%;
+} 
+
+.container-wrapper{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-wrapper{
+    padding: 10px 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #d1a389;
+    border-radius: 16px
+}
+
+.input-wrapper input {
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 20px;
+}
+
+img{
+    width: 100px;
+    height: 100%;
+    border: 5px solid transparent;
+}
+
+.container-img {
+    background-color: #ffffff;
+}
+
+.calca1 {
+    width: 35%;
+    height: 100%;
+}   
+
+.product:hover{
+    transform: scale(1.1);
+}
+
+
+.button-carrinho{
+    width: 7%;
+    height: 100%;
+    border: none;
+}
+
+.calca2{
+    width: 35%;
+    height: 100%;
+}
+
+.calca3{
+    width: 35%;
+    height: 100%;
+}
+
+.calca4{
+    width: 35%;
+    height: 100%;
+}
+
+.calca5{
+    width: 35%;
+    height: 100%;
+}
+
+.calca6{
+    width: 35%;
+    height: 100%;
+}
+
+.camisa1{
+    width: 35%;
+    height: 100%;
+}
+
+.camisa2{
+    width: 35%;
+    height: 100%;
+}
+
+.camisa3{
+    width: 35%;
+    height: 100%;
+}
+
+.camisa4{
+    width: 35%;
+    height: 100%;
+}
+
+.camisa5{
+    width: 35%;
+    height: 100%;
+}
+
+.camisa6{
+    width: 35%;
+    height: 100%;
+}
+
+.vestido1{
+    width: 35%;
+    height: 100%;
+}
+
+.vestido2{
+    width: 35%;
+    height: 100%;
+}
+
+.vestido3{
+    width: 35%;
+    height: 100%;
+}
+
+.vestido4{
+    width: 35%;
+    height: 100%;
+}
+
+.vestido5{
+    width: 35%;
+    height: 100%;
+}
+
+.vestido6{
+    width: 35%;
+    height: 100%;
+}
+
+.button{
+    background-color: #d1a389;
+    border: none;
+    padding: 15px;
+
+}
+
+.container-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.container-primario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-secundario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+.cabecalho-imagem {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 5px solid transparent;
+}
+
+.cabecalho {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 100px;
+    font-size: 20px;
+}
+
+.container-nav {
+    display: flex;
+    gap: 30px;
+}
+
+.container-nav img {
+    width: 50px;
+    height: 50px;
+}
+
+.main {
+    display: flex;
+}
+
+.modal {
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo escurecido */
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.modal ul {
+    list-style-type: none;
+} 
+
+.modal-conteudo {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.modal-conteudo h2 {
+    background-color: white;
+}
+
+.modal-conteudo p {
+    background-color: white;
+}
+
+.modal-conteudo button {
+    background-color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.modal-img {
+    background-color: #ffffff;
+    display: flex;
+    
+}
+
+.modal-img img {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+
+.modal-img ul{
+    display: flex;
+    margin: 50px;
+    gap: 35px;
+    font-size: 25px;
+    flex-direction: column;
+    background-color: white;
+}
+
+.modal-img li {
+    background-color: white;
+}
+
+.ul{text-overflow: clip;};
+
+.preco-tamanho {
+    display: flex;
+    justify-content: space-between; /* Alinha os itens ao longo do eixo principal */
+    align-items: center; /* Alinha os itens ao centro no eixo transversal */
+    margin-top: 100px; /* Espaçamento acima */
+}
+
+.preco-tamanho ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding */
+    margin: 0; /* Remove a margem */
+    font-size: 20px; /* Ajusta o tamanho da fonte */
+}
+
+.fechar {
+    color: #000000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.fechar:hover,
+.fechar:focus {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.rodape img {
+    width: 10%;
+}
+
+.links-rodape {
+    margin: 20px;   
+    text-decoration: none;
+}
+
+.links-rodape a:hover {
+    text-decoration: underline;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-around; /* Distribui espaço entre os itens */
+    align-items: center; /* Alinha os itens verticalmente (se necessário) */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.rodape img {
+    width: 40px; /* Ajuste do tamanho do logo */
+    margin: 0 10px; /* Espaçamento entre os logos */
+}
+
+.redes-sociais p {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.redes-sociais-logo {
+    display: flex;
+    justify-content: center; /* Centraliza os logos horizontalmente */
+    gap: 15px; /* Espaçamento entre os links das redes sociais */
+    margin-top: 10px;
+}
+
+.contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact ul li {
+    margin: 5px 0; /* Espaçamento entre os itens de contato */
+}
+
+.links-rodape {
+    display: flex;
+    justify-content: center; /* Centraliza os links do rodapé */
+    gap: 20px; /* Espaçamento entre os links */
+    margin-top: 20px;
+}
+
+.links-rodape a {
+    text-decoration: none;
+    color: #000;
+}
+
+.links-rodape a:hover {
+    text-decoration: underline;
+}
+
+.redes-sociais p {
+    margin-bottom: 5px;
+    font-weight: bold;
+}

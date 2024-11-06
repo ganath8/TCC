@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    font-family: "Open Sans", sans-serif;
+    margin: 5;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: rgb(252, 241, 227);
+
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 16px;
+}
+
+.container {
+    padding: 20px;
+    border: none;
+    width: 100%;
+    color: black;
+    font-size: 20px;
+}
+
+.cabecalho-imagem {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter h1 {
+    font-size: 60px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container-form {
+    display: flex;
+
+}
+
+.nome {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 5px solid #d1a389;
+}
+
+.e-mail {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 5px solid #d1a389;
+}
+
+.senha {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 5px solid #d1a389;
+}
+
+.confirmar-senha {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 5px solid #d1a389;
+}
+
+.cadastrar {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 5px solid #d1a389;
+}
+
+.button {
+    background-color: #d1a389;
+    border: none;
+    padding: 15px;
+
+}
+
+.input-wrapper {
+
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #d1a389;
+    border-radius: 16px;
+}
+
+.imginício {
+    width: 100%;
+}
+
+.container-wrapper {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-wrapper {
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #d1a389;
+    border-radius: 16px;
+}
+
+.input-wrapper {
+    color: #d1a389;
+
+}
+
+.input-wrapper input {
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 20px;
+}
+
+.cabecalho-imagem {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.cabecalho {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 100px;
+    font-size: 20px;
+}
+
+.container-nav {
+    display: flex;
+    gap: 30px;
+}
+
+.container-nav img {
+    width: 50px;
+    height: 50px;
+}
+
+.main {
+    display: flex;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+}
+
+.form input {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 35px;
+}
+
+.form button {
+    font-size: 30px;
+    border-radius: 16px;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    justify-content: center;
+}
+
+.container-form img {
+    width: 20%;
+    height: auto;
+}
+
+.rodape {
+    display: flex;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.rodape img {
+    width: 10%;
+}
+
+.links-rodape {
+    margin: 20px;   
+    text-decoration: none;
+}
+
+.links-rodape a:hover {
+    text-decoration: underline;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-around; /* Espaçamento equilibrado entre os elementos */
+    align-items: center; /* Centraliza verticalmente os elementos */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.rodape img {
+    width: 40px; /* Ajuste do tamanho do logo */
+    margin: 0 10px; /* Espaçamento entre os logos */
+}
+
+.redes-sociais-logo {
+    display: flex;
+    justify-content: center; /* Centraliza os logos horizontalmente */
+    gap: 15px; /* Espaçamento entre os links das redes sociais */
+    margin-top: 10px;
+}
+
+.contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact ul li {
+    margin: 5px 0; /* Espaçamento entre os itens de contato */
+}
+
+.links-rodape {
+    display: flex;
+    justify-content: center; /* Centraliza os links do rodapé */
+    gap: 20px; /* Espaçamento entre os links */
+    margin-top: 20px;
+}
+
+.links-rodape a {
+    text-decoration: none;
+    color: #000;
+}
+
+.links-rodape a:hover {
+    text-decoration: underline;
+}
+
+.redes-sociais p {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.icons {
+    display: flex;
+
+}

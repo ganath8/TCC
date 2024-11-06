@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0%;
+    text-decoration: none;
+    background-color: rgb(252, 241, 227);
+}
+
+.imginício {
+    width: 100%;
+}
+
+.container-wrapper {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-wrapper {
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #d1a389; /* Cor de fundo para o input e ícone */
+    border-radius: 16px;
+}
+
+.input-wrapper input {
+    border: none;
+    background-color: transparent; /* Fundo transparente para que herde a cor do wrapper */
+    outline: none; /* Remove o contorno ao focar no input */
+    padding: 8px;
+    font-size: 16px;
+    color: #000; /* Cor do texto */
+}
+
+.input-wrapper i {
+    color: #000; /* Cor do ícone */
+    font-size: 18px; /* Ajusta o tamanho do ícone */
+}
+
+.cabecalho-imagem {
+    color: #d1a389;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.cabecalho {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 100px;
+    font-size: 20px;
+}
+
+.container-nav {
+    display: flex;
+    gap: 30px;
+}
+
+.container-nav img {
+    width: 50px;
+    height: 50px;
+}
+
+.main {
+    display: flex;
+
+}
+.rodape {
+    display: flex;
+    justify-content: space-around; /* Espaçamento equilibrado entre os elementos */
+    align-items: center; /* Centraliza verticalmente os elementos */
+    flex-wrap: wrap; /* Permite que os itens se ajustem em telas menores */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.rodape img {
+    width: 40px; /* Ajuste do tamanho do logo */
+    margin: 0 10px; /* Espaçamento entre os logos */
+}
+
+.redes-sociais-logo {
+    display: flex;
+    justify-content: center; /* Centraliza os logos horizontalmente */
+    gap: 15px; /* Espaçamento entre os links das redes sociais */
+    margin-top: 10px;
+}
+
+.contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact ul li {
+    margin: 5px 0; /* Espaçamento entre os itens de contato */
+}
+
+.links-rodape {
+    display: flex;
+    justify-content: center; /* Centraliza os links do rodapé */
+    gap: 20px; /* Espaçamento entre os links */
+    margin-top: 20px;
+}
+
+.links-rodape a {
+    text-decoration: none;
+    color: #000;
+}
+
+.links-rodape a:hover {
+    text-decoration: underline;
+}
+
+.redes-sociais p {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
