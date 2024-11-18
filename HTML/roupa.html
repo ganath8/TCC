@@ -10,7 +10,7 @@
 
 <body>
     <header class="cabecalho">
-        <img class="cabecalho-imagem" src="/imagens/logo.png" alt="Loja Plus Size">
+        <a href="/HTML/index.html"><img class="cabecalho-imagem" src="/imagens/logo.png" alt="Loja Plus Size"></a>
         <nav class="cabecalho-menu">
 
             <div class="container">
@@ -29,62 +29,259 @@
             </div>
         </nav>
     </header>
+    <script>
+
+        const produtos = {
+            calca1: {
+                imagem: "/imagens/calça1.png",
+                preco: "R$ 109,00",
+                descricao: "Calça Alfaiataria Reta Plus Size",
+                GG: "GG",
+                XP: "XP",
+                XM: "XM",
+                XG: "XG",
+                XXG: "XXG"
+            },
+            calca2: {
+                imagem: "/imagens/calça2.png",
+                preco: "R$ 139,00",
+                descricao: "Calça Plus Size Legging Fuso",
+                GG: "GG",
+                XP: "XP",
+                XM: "XM",
+                XG: "XG",
+                XXG: "XXG"
+            },
+            calca3: {
+                imagem: "/imagens/calça3.png",
+                preco: "R$ 99,99",
+                descricao: "Calça Legging Plus Size ",
+                GG: "GG",
+                XP: "XP",
+                XM: "XM",
+                XG: "XG",
+                XXG: "XXG"
+            },
+            calca4: {
+                imagem: "/imagens/calça4.png",
+                preco: "R$ 149,99",
+                descricao: "Calça Jeans Plus Size Wide leg",
+                GG: "GG",
+                XP: "XP",
+                XM: "XM",
+                XG: "XG",
+                XXG: "XXG"
+            },
+            calca5: {
+                imagem: "/imagens/calça5.png",
+                preco: "R$ 129,99",
+                descricao: "Calça Jeans Plus Size Escura",
+                GG: "GG",
+                XP: "XP",
+                XM: "XM",
+                XG: "XG",
+                XXG: "XXG"
+            },
+            calca6: {
+                imagem: "/imagens/calça6.png",
+                preco: "R$ 156,00",
+                descricao: "Calça Envelope Plus Size",
+                GG: "GG",
+                XP: "XP",
+                XM: "XM",
+                XG: "XG",
+                XXG: "XXG"
+            },
+            camisa1: {
+                imagem: "/imagens/camisa1.png",
+                preco: "R$ 99,99",
+                descricao: "Camisa Plus Size Com Bolso",
+                GG: "GG",
+                XP: "XP",
+                XM: "XM",
+                XG: "XG",
+                XXG: "XXG"
+            },
+            camisa2: {
+                imagem: "/imagens/camisa2.png",
+                preco: "R$ 109,00",
+                descricao: "Camisa Plus Size",
+                GG: "GG",
+                XP: "XP",
+                XM: "XM",
+                XG: "XG",
+                XXG: "XXG"
+            },
+            camisa3: {
+                imagem: "/imagens/camisa3.png",
+                preco: "R$ 89,00",
+                descricao: "Camisa Plus Size",
+                GG: "GG",
+                XP: "XP",
+                XM: "XM",
+                XG: "XG",
+                XXG: "XXG"
+            },
+            camisa4: {
+                imagem: "/imagens/camisa4.png",
+                preco: "R$ 139,99",
+                descricao: "Camisa Jeans Plus Size",
+                GG: "GG",
+                XP: "XP",
+                XM: "XM",
+                XG: "XG",
+                XXG: "XXG"
+            },
+            camisa5: {
+                imagem: "/imagens/camisa5.png",
+                preco: "R$ 129,99",
+                descricao: "Camisa Manga Longa Preta Plus Size",
+                GG: "GG",
+                XP: "XP",
+                XM: "XM",
+                XG: "XG",
+                XXG: "XXG"
+            },
+            camisa6: {
+                imagem: "/imagens/camisa6.png",
+                preco: "R$ 159,99",
+                descricao: "Camisa Chemise Plus Size",
+                GG: "GG",
+                XP: "XP",
+                XM: "XM",
+                XG: "XG",
+                XXG: "XXG"
+            },
+            vestido1: {
+                imagem: "/imagens/vestido1.png",
+                preco: "R$ 129,99",
+                descricao: "Vestido Plus Size Curto Com Lastex Branco",
+                GG: "GG",
+                XP: "XP",
+                XM: "XM",
+                XG: "XG",
+                XXG: "XXG"
+            },
+            vestido2: {
+                imagem: "/imagens/vestido2.png",
+                preco: "R$ 139,99",
+                descricao: "Vestido Jeans Plus Size",
+                GG: "GG",
+                XP: "XP",
+                XM: "XM",
+                XG: "XG",
+                XXG: "XXG"
+            },
+            vestido3: {
+                imagem: "/imagens/vestido3.png",
+                preco: "R$ 69,99",
+                descricao: "Vestido Curto Plus Size",
+                GG: "GG",
+                XP: "XP",
+                XM: "XM",
+                XG: "XG",
+                XXG: "XXG"
+            },
+            vestido4: {
+                imagem: "/imagens/vestido4.png",
+                preco: "R$ 159,99",
+                descricao: "Vestido Longo Plus Size",
+                GG: "GG",
+                XP: "XP",
+                XM: "XM",
+                XG: "XG",
+                XXG: "XXG"
+            },
+            vestido5: {
+                imagem: "/imagens/vestido5.png",
+                preco: "R$ 149,99",
+                descricao: "Vestido Longo Plus Size Bordô Com Decote Redondo",
+                GG: "GG",
+                XP: "XP",
+                XM: "XM",
+                XG: "XG",
+                XXG: "XXG"
+            },
+            vestido6: {
+                imagem: "/imagens/vestido6.png",
+                preco: "R$ 179,99",
+                descricao: "Vestido Longo Preto Plus Size",
+                GG: "GG",
+                XP: "XP",
+                XM: "XM",
+                XG: "XG",
+                XXG: "XXG"
+            }
+
+            // Adicione mais produtos conforme necessário
+        };
+
+
+        function teste(id) {
+            const produto = produtos[id];
+            if (produto) {
+                document.querySelector("#modal .modal-img img").src = produto.imagem;
+                document.querySelector("#modal .preco").innerText = produto.preco;
+                document.querySelector("#modal .descricao").innerText = produto.descricao;
+                document.querySelector("#modal .GG").innerText = produto.GG;
+                document.querySelector("#modal .XP").innerText = produto.XP;
+                document.querySelector("#modal .XM").innerText = produto.XM;
+                document.querySelector("#modal .XG").innerText = produto.XG;
+                document.querySelector("#modal .XM").innerText = produto.XXG;
+                document.getElementById("modal").style.display = "flex"; // Exibe o modal
+            }
+        }
+
+        function fecharModal() {
+            document.getElementById("modal").style.display = "none"; // Fecha o modal
+        }
+
+        function confirmarCompra() {
+            alert("Compra finalizada com sucesso!");
+            fecharModal(); // Fecha o modal
+        }
+
+    </script>
 
     <h1>Roupa Plus Size Feminina</h1>
 
     <section class="container-principal">
         <div class="container-primario">
-            <div class="product">
+            <div class="product" onclick="teste('calca1')">
                 <div class="container-img"><img class="calca1" src="/imagens/calça1.png" alt="Calça 1 "></div>
                 <p>Calça Alfaiataria Reta Plus Size</p>
                 <a onClick="teste()">
                     <p>R$ 109,00 <img class="button-carrinho" src="/imagens/carrinho.png" alt=""></p>
                 </a>
 
-                <script>
-                    function teste() {
-                        document.getElementById("modal").style.display = "flex"; // Abre o modal
-                    }
-
-                    function fecharModal() {
-                        document.getElementById("modal").style.display = "none"; // Fecha o modal
-                    }
-
-                    function confirmarCompra() {
-                        alert("Compra finalizada com sucesso!"); // Aqui você pode adicionar lógica adicional
-                        fecharModal(); // Fecha o modal
-                    }
-
-                </script>
-
             </div>
 
-            <div class="product">
-                <div class="container-img"><img class="calca2" src="/imagens/calça2.png" alt="Calça 2"> </div>
+            <div class="product" onclick="teste('calca2')">
+                <div class="container-img"><img class="calca2" src="/imagens/calça2.png" alt="Calça 2"></div>
                 <p>Calça Plus Size Legging Fuso</p>
-                <a onClick="teste()">
-                    <p>R$ 139,00 <img class="button-carrinho" src="/imagens/carrinho.png" alt=""></p>
+                <a onClick="teste('calca2')">
+                    <p>R$ 139,99 <img class="button-carrinho" src="/imagens/carrinho.png" alt=""></p>
                 </a>
             </div>
 
-            <div class="product">
-                <div class="container-img"> <img class="calca3" src="/imagens/calça3.png" alt="Calça 3"> </div>
-                <p>Calça Legging Plus Size</p>
-                <a onClick="teste()">
-                    <p>R$ 99,00 <img class="button-carrinho" src="/imagens/carrinho.png" alt=""></p>
+            <div class="product" onclick="teste('calca3')">
+                <div class="container-img"><img class="calca3" src="/imagens/calça3.png" alt="Calça 3"></div>
+                <p>Calça Legging Plus Size </p>
+                <a onClick="teste('calca3')">
+                    <p>R$ 99,99 <img class="button-carrinho" src="/imagens/carrinho.png" alt=""></p>
                 </a>
             </div>
         </div>
         <section class="container-secundario">
-            <div class="product">
+            <div class="product" onclick="teste('calca4')">
                 <div class="container-img"> <img class="calca4" src="/imagens/calça4.png" alt="Calça 4"> </div>
                 <p>Calça Jeans Plus Size Wide leg</p>
-                <a onClick="teste()">
+                <a onClick="teste('calca4')">
                     <p>R$ 149,99 <img class="button-carrinho" src="/imagens/carrinho.png" alt=""></p>
                 </a>
             </div>
 
-            <div class="product">
+            <div class="product" onclick="teste('calca5')">
                 <div class="container-img"> <img class="calca5" src="/imagens/calça5.png" alt="Calça 5"> </div>
                 <p>Calça Jeans Plus Size Escura</p>
                 <a onClick="teste()">
@@ -92,7 +289,7 @@
                 </a>
             </div>
 
-            <div class="product">
+            <div class="product" onclick="teste('calca6')">
                 <div class="container-img"><img class="calca6" src="/imagens/calça6.png" alt="Calça 6"> </div>
                 <p>Calça Envelope Plus Size</p>
                 <a onClick="teste()">
@@ -103,7 +300,7 @@
 
         <section class="container-primario">
 
-            <div class="product">
+            <div class="product" onclick="teste('camisa1')">
                 <div class="container-img"><img class="camisa1" src="/imagens/camisa1.png" alt="Camisa 1"> </div>
                 <p>Camisa Plus Size Com Bolso</p>
                 <a onClick="teste()">
@@ -111,7 +308,7 @@
                 </a>
             </div>
 
-            <div class="product">
+            <div class="product" onclick="teste('camisa2')">
                 <div class="container-img"><img class="camisa2" src="/imagens/camisa2.png" alt="Camisa 2"> </div>
                 <p>Camisa Plus Size</p>
                 <a onClick="teste()">
@@ -119,7 +316,7 @@
                 </a>
             </div>
 
-            <div class="product">
+            <div class="product" onclick="teste('camisa3')">
                 <div class="container-img"><img class="camisa3" src="/imagens/camisa3.png" alt="Camisa 3"> </div>
                 <p>Camisa Plus Size</p>
                 <a onClick="teste()">
@@ -129,7 +326,7 @@
         </section>
 
         <section class="container-secundario">
-            <div class="product">
+            <div class="product" onclick="teste('camisa4')">
                 <div class="container-img"><img class="camisa4" src="/imagens/camisa4.png" alt="Camisa 4"> </div>
                 <p>Camisa Jeans Plus Size</p>
                 <a onClick="teste()">
@@ -137,7 +334,7 @@
                 </a>
             </div>
 
-            <div class="product">
+            <div class="product" onclick="teste('camisa5')">
                 <div class="container-img"><img class="camisa5" src="/imagens/camisa5.png" alt="Camisa 5"></div>
                 <p>Camisa Manga Longa Preta Plus Size</p>
                 <a onClick="teste()">
@@ -145,7 +342,7 @@
                 </a>
             </div>
 
-            <div class="product">
+            <div class="product" onclick="teste('camisa6')">
                 <div class="container-img"><img class="camisa6" src="/imagens/camisa6.png" alt="Camisa 6"> </div>
                 <p>Camisa Chemise Plus Size</p>
                 <a onClick="teste()">
@@ -155,7 +352,7 @@
         </section>
 
         <section class="container-primario">
-            <div class="product">
+            <div class="product" onclick="teste('vestido1')">
                 <div class="container-img"><img class="vestido1" src="/imagens/vestido1.png" alt="Vestido 1"> </div>
                 <p>Vestido Plus Size Curto Com Lastex Branco</p>
                 <a onClick="teste()">
@@ -163,7 +360,7 @@
                 </a>
             </div>
 
-            <div class="product">
+            <div class="product" onclick="teste('vestido2')">
                 <div class="container-img"><img class="vestido2" src="/imagens/vestido2.png" alt="Vestido 2"> </div>
                 <p>Vestido Jeans Plus Size</p>
                 <a onClick="teste()">
@@ -171,7 +368,7 @@
                 </a>
             </div>
 
-            <div class="product">
+            <div class="product" onclick="teste('vestido3')">
                 <div class="container-img"><img class="vestido3" src="/imagens/vestido3.png" alt="Vestido 3"></div>
                 <p>Vestido Curto Plus Size</p>
                 <a onClick="teste()">
@@ -181,7 +378,7 @@
         </section>
 
         <section class="container-secundario">
-            <div class="product">
+            <div class="product" onclick="teste('vestido4')">
                 <div class="container-img"><img class="vestido4" src="/imagens/vestido4.png" alt="Vestido 4"> </div>
                 <p>Vestido Longo Plus Size</p>
                 <a onClick="teste()">
@@ -189,7 +386,7 @@
                 </a>
             </div>
 
-            <div class="product">
+            <div class="product" onclick="teste('vestido5')">
                 <div class="container-img"><img class="vestido5" src="/imagens/vestido5.png" alt="Vestido 5"> </div>
                 <p>Vestido Longo Plus Size Bordô Com Decote Redondo</p>
                 <a onClick="teste()">
@@ -197,7 +394,7 @@
                 </a>
             </div>
 
-            <div class="product">
+            <div class="product" onclick="teste('vestido6')">
                 <div class="container-img"><img class="vestido6" src="/imagens/vestido6.png" alt="Vestido 6"> </div>
                 <p>Vestido Longo Preto Plus Size </p>
                 <a onClick="teste()">
@@ -212,16 +409,16 @@
             <span class="fechar" onclick="fecharModal()">&times;</span>
             <div class="modal-img">
                 <img src="/imagens/calça1.png" alt="">
-
-                <ul>Tamanho:
-                    <button>P</button>
-                    <button>M</button>
-                    <button>G</button>
-                </ul>
-                <ul>Preço:
-                    <li>R$109,00</li>
-                </ul>
-
+                <div class="informacoes-produto">
+                    <p class="descricao"></p> <!-- Descrição do produto -->
+                    <p class="preco"></p> <!-- Preço do produto --> <br>
+                    <P>Tamanhos:</P>
+                    <p class="GG"></p>
+                    <p class="XP"></p>
+                    <p class="XM"></p>
+                    <p class="XG"></p>
+                    <p class="XXG"></p>
+                </div>
             </div>
             <h2>Finalizar Compra</h2>
             <p>Deseja realmente finalizar a compra?</p>
@@ -230,48 +427,38 @@
         </div>
     </div>
 
-        <footer class="rodape">
-            <div class="redes-sociais">
-                <p>Redes sociais</p>
-                <div class="redes-sociais-logo">
-                    <a href="https://facebook.com" target="_blank">
-                        
-                        <img src="/imagens/facebook-logo-0-removebg-preview (1).png" alt="">
-                    </a>
-                    
-                    <a href="https://instagram.com" target="_blank">
-                        
-                        <img src="/imagens/instagram.png" alt="">
-                    </a>
-                </div>
+    <footer class="rodape">
+        <div class="redes-sociais">
+            <p>Redes sociais</p>
+            <div class="redes-sociais-logo">
+                <a href="https://facebook.com" target="_blank">
+
+                    <img src="/imagens/facebook-logo-0-removebg-preview (1).png" alt="">
+                </a>
+
+                <a href="https://instagram.com" target="_blank">
+
+                    <img src="/imagens/instagram.png" alt="">
+                </a>
             </div>
-            
-            <div class="contact">
-                <ul>
-                    <li>Contate-nos</li>
-                    <li>Método De Pagamento</li>
-                    <li>Sala de Imprensa</li>
-                    <li>Sobre a loja</li>
-                </ul>
-            </div>
-            <div class="links-rodape">
-                
-                <a href="/HTML/politica.html">Política de Privacidade</a>
-                <a href="/HTML/termos.html">Termos de Uso</a>
-            </div>
-            <p>&copy; 2024 Loja Plus Size. Todos os direitos reservados.</p>
-        </footer>
-    
-    </body>
-    
-    </html>
+        </div>
+
+        <div class="contact">
+            <ul>
+                <li>Contate-nos</li>
+                <li>Método De Pagamento</li>
+                <li>Sala de Imprensa</li>
+                <li>Sobre a loja</li>
+            </ul>
+        </div>
+        <div class="links-rodape">
+
+            <a href="">Política de Privacidade</a>
+            <a href="">Termos de Uso</a>
+        </div>
+        <p>&copy; 2024 Loja Plus Size. Todos os direitos reservados.</p>
     </footer>
 
 </body>
-
-</html>
-
-</body>
-   
 
 </html>

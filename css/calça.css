@@ -83,6 +83,7 @@ img{
 
 
 .button-carrinho{
+    cursor: pointer;
     width: 7%;
     height: 100%;
     border: none;
@@ -225,8 +226,8 @@ img{
 }
 
 .container-nav img {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
 }
 
 .main {
@@ -269,7 +270,8 @@ img{
 }
 
 .modal-conteudo button {
-    background-color: white;
+    cursor: pointer;
+    background-color: rgb(252, 241, 227);
     font-size: 20px;
     margin-top: 20px;
 }
@@ -403,4 +405,8 @@ img{
 .redes-sociais p {
     margin-bottom: 5px;
     font-weight: bold;
+}
+
+.informacoes-produto {
+    background-color: white;
 }

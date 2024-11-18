@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,82 +8,80 @@
     <link rel="stylesheet" href="/imagens/sacola.png">
     <link rel="stylesheet" href="/css/carrinho.css">
 </head>
-    <body>
-        <header class="cabecalho">
-            <img class="cabecalho-imagem" src="/imagens/logo.png" alt="Loja Plus Size">
-            <nav class="cabecalho-menu">
 
-                    <div class="container-nav">
-                        <a href="/HTML/index.html" class="cabecalho-menu-item">Início</a>
-                        <a href="/HTML/cadastre.html" class="cabecalho-menu-item">Cadastro</a>
-                        <a href="/HTML/roupa.html" class="cabecalho-manu-item">Loja</a>
-                        <a href="/HTML/sobrenos.html" class="cabecalho-manu-item">Sobre Nós</a>
-                        <img src="/imagens/sacola.png" alt="">
-                        <img src="/imagens/usuario.png" alt="">
-                    </div>
-                </nav>
-            </header>
-        
+<body>
+    <header class="cabecalho">
+        <a href="/HTML/index.html"><img class="cabecalho-imagem" src="/imagens/logo.png" alt="Loja Plus Size"></a>
+        <nav class="cabecalho-menu">
 
-                <h1>Carrinho de Compras</h1>
-            
-                <div id="produtos">
-                    <div class="produto">
-                        <h2>Calça1</h2>
-                        <p>Preço: R$ 109,00</p>
-                        <button onclick="adicionarAoCarrinho('Produto 1', 50)">Adicionar ao Carrinho</button>
-                    </div>
-                    <div class="produto">
-                        <h2>Calça2</h2>
-                        <p>Preço: R$ 139,00</p>
-                        <button onclick="adicionarAoCarrinho('Produto 2', 30)">Adicionar ao Carrinho</button>
-                    </div>
-                    <div class="produto">
-                        <h2>Calça3</h2>
-                        <p>Preço: R$ 99,00</p>
-                        <button onclick="adicionarAoCarrinho('Produto 3', 20)">Adicionar ao Carrinho</button>
-                    </div>
-                </div>
-            
-                <div class="carrinho">
-                    <h2>Seu Carrinho</h2>
-                    <ul id="listaCarrinho"></ul>
-                    <p class="total">Total: R$ <span id="totalCarrinho">100,00</span></p>
-                    <button onclick="finalizarCompra()">Finalizar Compra</button>
-                </div>
-                <footer class="rodape">
-                    <p>&copy; 2024 Loja Plus Size. Todos os direitos reservados.</p>
-                    <div class="redes-sociais">
-                        <p>Redes sociais</p>
-                        <a href="https://facebook.com" target="_blank">
-            
-                            <img src="/imagens/facebook-logo-0-removebg-preview (1).png" alt="">
-                        </a>
-                        <a href="https://instagram.com" target="_blank">
-            
-                            <img src="/imagens/instagram.png" alt="">
-                        </a>
-                    </div>
-                    <div>
-                        <ul>
-                            <li>Contate-nos</li>
-                            <li>Método De Pagamento</li>
-                            <li>Sala de Imprensa</li>
-                            <li>Sobre a loja</li>
-                        </ul>
-                    </div>
-                
-                    <div class="links-rodape">
-            
-                        <a href="/HTML/politica.html">Política de Privacidade</a>
-                        <a href="/HTML/termos.html">Termos de Uso</a>
-                    </div>
-            
-                </body>
-                
-                </footer>
-            
-            </body>
-            
-            </html>
-            
+            <div class="container-nav">
+                <a href="/HTML/index.html" class="cabecalho-menu-item">Início</a>
+                <a href="/HTML/cadastre.html" class="cabecalho-menu-item">Cadastro</a>
+                <a href="/HTML/roupa.html" class="cabecalho-manu-item">Loja</a>
+                <a href="/HTML/sobrenos.html" class="cabecalho-manu-item">Sobre Nós</a>
+                <img src="/imagens/sacola.png" alt="">
+                <img src="/imagens/usuario.png" alt="">
+            </div>
+        </nav>
+    </header>
+
+
+    <h1>Carrinho de Compras</h1>
+
+    <div id="produtos">
+        <div class="produto">
+            <h2>Calça1</h2>
+            <p>Preço: R$ 109,00</p>
+            <button onclick="adicionarAoCarrinho('Produto 1', 50)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <h2>Calça2</h2>
+            <p>Preço: R$ 139,00</p>
+            <button onclick="adicionarAoCarrinho('Produto 2', 30)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <h2>Calça3</h2>
+            <p>Preço: R$ 99,00</p>
+            <button onclick="adicionarAoCarrinho('Produto 3', 20)">Adicionar ao Carrinho</button>
+        </div>
+    </div>
+
+    <div class="carrinho">
+        <h2>Seu Carrinho</h2>
+        <ul id="listaCarrinho"></ul>
+        <p class="total">Total: R$ <span id="totalCarrinho">100,00</span></p>
+        <button onclick="finalizarCompra()">Finalizar Compra</button>
+    </div>
+    <footer class="rodape">
+        <p>&copy; 2024 Loja Plus Size. Todos os direitos reservados.</p>
+        <div class="redes-sociais">
+            <p>Redes sociais</p>
+            <a href="https://facebook.com" target="_blank">
+
+                <img src="/imagens/facebook-logo-0-removebg-preview (1).png" alt="">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+
+                <img src="/imagens/instagram.png" alt="">
+            </a>
+        </div>
+        <div>
+            <ul>
+                <li>Contate-nos</li>
+                <li>Método De Pagamento</li>
+                <li>Sala de Imprensa</li>
+                <li>Sobre a loja</li>
+            </ul>
+        </div>
+
+        <div class="links-rodape">
+
+            <a href="">Política de Privacidade</a>
+            <a href="">Termos de Uso</a>
+        </div>
+
+
+    </footer>
+</body>
+
+</html>
